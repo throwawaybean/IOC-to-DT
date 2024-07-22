@@ -56,7 +56,7 @@ def process_csv(file_name):
             "description": "IOC from CCCS",
             "strength": 100,
             "source": "Default",
-            "expiry": (datetime.now() + timedelta(days=30)).strftime("%Y-%m-%d %H:%M:%S"),
+            "expiry": (datetime.now() + timedelta(days=90)).strftime("%Y-%m-%d %H:%M:%S"),
             "iagn": "True"
         }
         for domain in unique_domains
